@@ -1,0 +1,37 @@
+<mxfile>
+    <diagram>
+        <mxGraphModel>
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="User Interface Layer: React + Ant Design" style="text;fillColor=#e1f5fe;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="50" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="API Layer: Express.js (REST API)" style="text;fillColor=#fffde7;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="130" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Business Logic Layer: Controllers" style="text;fillColor=#e8f5e9;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="210" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Data Access Layer: Sequelize ORM" style="text;fillColor=#ede7f6;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="290" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Database Layer: MySQL Database" style="text;fillColor=#ffebee;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="370" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
